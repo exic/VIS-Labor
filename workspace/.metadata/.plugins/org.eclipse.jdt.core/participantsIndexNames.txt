@@ -1,0 +1,5 @@
+INDEX VERSION 1.126
+E:\HS Karlsruhe\Verteilte Informationssysteme Labor\GIT\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\547688489.index
+\vislabor
+E:\HS Karlsruhe\Verteilte Informationssysteme Labor\GIT\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\747421262.index
+\vislabor
