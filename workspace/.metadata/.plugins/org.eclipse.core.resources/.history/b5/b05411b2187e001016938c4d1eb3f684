@@ -1,0 +1,5 @@
+package vislabExample.model.bl;
+
+public class AdminManager {
+
+}

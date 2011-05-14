@@ -1,0 +1,9 @@
+package vislabExample.model.bl;
+
+import org.hibernate.Session;
+import vislabExample.model.db.Product;
+import vislabExample.model.sf.HibernateUtil;
+
+public class ProductManager {
+
+}

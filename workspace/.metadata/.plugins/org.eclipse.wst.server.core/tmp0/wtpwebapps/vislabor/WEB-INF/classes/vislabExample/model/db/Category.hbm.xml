@@ -4,7 +4,7 @@
 <!-- Generated 14.05.2011 12:23:07 by Hibernate Tools 3.4.0.CR1 -->
 <hibernate-mapping>
     <class name="vislabExample.model.db.Category" table="CATEGORY">
-        <id name="label" type="java.lang.Long">
+        <id name="label" type="java.lang.String">
             <column name="LABEL" />
             <generator class="assigned" />
         </id>
