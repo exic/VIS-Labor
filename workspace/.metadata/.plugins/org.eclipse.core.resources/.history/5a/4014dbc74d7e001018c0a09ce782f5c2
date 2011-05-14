@@ -1,0 +1,58 @@
+package vislabExample.controller.action;
+
+import com.opensymphony.xwork2.ActionSupport;
+import vislabExample.model.bl.AdminManager;
+import vislabExample.model.db.Admin;
+
+public class LoginAdminAction extends ActionSupport {
+
+	private static final long serialVersionUID = -983183915002226000L;
+
+	private String username = "";
+	private String password = "";
+	
+	public String execute() throws Exception {
+
+	   	AdminManager adminManager = new AdminManager();
+	   	Admin admin = adminManager.getAdminByPrimaryKey(getUsername());
+	    
+	   	if (customer == null) {
+			addActionError(getText("Benutzername nicht bekannt. Haben Sie sich schon registriert?"));
+			return INPUT;
+	   	}
+	   	else {
+			if (customer.getPassword().equals(getPassword())) {
+				setFirstname(customer.getFirstname());
+				setLastname(customer.getLastname());	
+				return SUCCESS;
+			} 
+			else {
+				addActionError("Bitte geben Sie das richtige Passwort ein!");
+				return INPUT;
+			}
+	   	}
+	}
+	
+	public String getUsername() {
+		return username;
+	}
+	
+	private void setUsername(String username) {
+		this.username = username;	
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	private void setPassword(String password) {
+		this.password = password;
+	}
+    
+    @Override
+    public void validate() {
+
+    	super.validate();
+    }
+
+}

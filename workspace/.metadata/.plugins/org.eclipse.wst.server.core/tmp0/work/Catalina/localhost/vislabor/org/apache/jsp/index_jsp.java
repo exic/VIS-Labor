@@ -63,13 +63,20 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t    \r\n");
       out.write("\t</head>\r\n");
       out.write("\t<body>\r\n");
-      out.write("\t\tWillkommen auf der Start-Seite des Beispielprojektes des VIS-Labors\r\n");
-      out.write("\t\t\r\n");
-      out.write("\t\t<p><a href=\"");
+      out.write("\t\t<a href=\"");
       if (_jspx_meth_s_005furl_005f0(_jspx_page_context))
         return;
-      out.write("\">Zur Login-Seite</a> </p>\r\n");
-      out.write("\t\t\r\n");
+      out.write("\">Login</a> -\r\n");
+      out.write("\t\t<a href=\"");
+      if (_jspx_meth_s_005furl_005f1(_jspx_page_context))
+        return;
+      out.write("\">Registrieren</a> -\r\n");
+      out.write("\t\t<a href=\"");
+      if (_jspx_meth_s_005furl_005f2(_jspx_page_context))
+        return;
+      out.write("\">Admin</a>\r\n");
+      out.write("\t\t<br /><br />\r\n");
+      out.write("\t\tWillkommen im Shop der Gruppe 22\r\n");
       out.write("\t</body>\r\n");
       out.write("</html>\r\n");
     } catch (Throwable t) {
@@ -92,14 +99,52 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_005furl_005f0 = (org.apache.struts2.views.jsp.URLTag) _005fjspx_005ftagPool_005fs_005furl_0026_005faction_005fnobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_005furl_005f0.setPageContext(_jspx_page_context);
     _jspx_th_s_005furl_005f0.setParent(null);
-    // /index.jsp(12,14) name = action type = java.lang.String reqTime = false required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
-    _jspx_th_s_005furl_005f0.setAction("User_forward");
+    // /index.jsp(10,11) name = action type = java.lang.String reqTime = false required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_s_005furl_005f0.setAction("forward_to_login");
     int _jspx_eval_s_005furl_005f0 = _jspx_th_s_005furl_005f0.doStartTag();
     if (_jspx_th_s_005furl_005f0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _005fjspx_005ftagPool_005fs_005furl_0026_005faction_005fnobody.reuse(_jspx_th_s_005furl_005f0);
       return true;
     }
     _005fjspx_005ftagPool_005fs_005furl_0026_005faction_005fnobody.reuse(_jspx_th_s_005furl_005f0);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_005furl_005f1(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:url
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_005furl_005f1 = (org.apache.struts2.views.jsp.URLTag) _005fjspx_005ftagPool_005fs_005furl_0026_005faction_005fnobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_005furl_005f1.setPageContext(_jspx_page_context);
+    _jspx_th_s_005furl_005f1.setParent(null);
+    // /index.jsp(11,11) name = action type = java.lang.String reqTime = false required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_s_005furl_005f1.setAction("forward_to_register");
+    int _jspx_eval_s_005furl_005f1 = _jspx_th_s_005furl_005f1.doStartTag();
+    if (_jspx_th_s_005furl_005f1.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fs_005furl_0026_005faction_005fnobody.reuse(_jspx_th_s_005furl_005f1);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fs_005furl_0026_005faction_005fnobody.reuse(_jspx_th_s_005furl_005f1);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_005furl_005f2(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:url
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_005furl_005f2 = (org.apache.struts2.views.jsp.URLTag) _005fjspx_005ftagPool_005fs_005furl_0026_005faction_005fnobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_005furl_005f2.setPageContext(_jspx_page_context);
+    _jspx_th_s_005furl_005f2.setParent(null);
+    // /index.jsp(12,11) name = action type = java.lang.String reqTime = false required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_s_005furl_005f2.setAction("forward_to_admin");
+    int _jspx_eval_s_005furl_005f2 = _jspx_th_s_005furl_005f2.doStartTag();
+    if (_jspx_th_s_005furl_005f2.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _005fjspx_005ftagPool_005fs_005furl_0026_005faction_005fnobody.reuse(_jspx_th_s_005furl_005f2);
+      return true;
+    }
+    _005fjspx_005ftagPool_005fs_005furl_0026_005faction_005fnobody.reuse(_jspx_th_s_005furl_005f2);
     return false;
   }
 }

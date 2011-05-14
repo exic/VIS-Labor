@@ -1,0 +1,34 @@
+<!DOCTYPE validators PUBLIC "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+   "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+<validators>
+    <field name="password">
+    	<field-validator type="requiredstring">
+        	<message>Bitte Passwort eingeben!</message>
+    	</field-validator>
+	</field>
+	<field name="lastname">
+    	<field-validator type="requiredstring">
+        	<message>Bitte Nachname eingeben!</message>
+    	</field-validator>
+	</field>
+    <field name="firstname">
+    	<field-validator type="requiredstring">
+        	<message>Bitte Vorname eingeben!</message>
+    	</field-validator>
+	</field>
+    <field name="city">
+    	<field-validator type="requiredstring">
+        	<message>Bitte Stadt eingeben!</message>
+    	</field-validator>
+	</field>
+    <field name="phone">
+    	<field-validator type="requiredstring">
+        	<message>Bitte Telefon eingeben!</message>
+    	</field-validator>
+	</field>
+    <field name="email">
+    	<field-validator type="requiredstring">
+        	<message>Bitte Email eingeben!</message>
+    	</field-validator>
+	</field>
+</validators>

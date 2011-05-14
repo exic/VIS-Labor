@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="vislabExample.model.db.Customer"/>
+<fullyQualifiedTypeName name="vislabExample.model.bl.CustomerManager"/>
+<fullyQualifiedTypeName name="vislabExample.model.bl.AdminManager"/>
+</qualifiedTypeNameHistroy>

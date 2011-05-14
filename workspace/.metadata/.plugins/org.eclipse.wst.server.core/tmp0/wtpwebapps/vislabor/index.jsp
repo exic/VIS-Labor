@@ -7,9 +7,10 @@
 	    
 	</head>
 	<body>
-		Willkommen auf der Start-Seite des Beispielprojektes des VIS-Labors
-		
-		<p><a href="<s:url action="User_forward"/>">Zur Login-Seite</a> </p>
-		
+		<a href="<s:url action="forward_to_login"/>">Login</a> -
+		<a href="<s:url action="forward_to_register"/>">Registrieren</a> -
+		<a href="<s:url action="forward_to_admin"/>">Admin</a>
+		<br /><br />
+		Willkommen im Shop der Gruppe 22
 	</body>
 </html>

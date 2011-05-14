@@ -2,3 +2,18 @@
 1305368569219	Rename type 'Catagory'
 1305368632119	Delete element
 1305368637688	Rename type 'admin'
+1305381846906	Rename resource 'Login.jsp'
+1305382826356	Rename resource 'registration.jsp'
+1305384302873	Rename resource 'login-user.jsp'
+1305384311176	Rename resource 'register-user.jsp'
+1305384317506	Rename resource 'success.jsp'
+1305384322854	Rename resource 'welcome.jsp'
+1305384386326	Rename type 'LoginAction'
+1305384393962	Rename resource 'LoginAction-validation.xml'
+1305386044190	Delete element
+1305386049275	Delete element
+1305386191116	Delete element
+1305386199275	Delete element
+1305386777691	Delete element
+1305388291335	Delete element
+1305392834792	Delete element

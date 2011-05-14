@@ -1,0 +1,14 @@
+<!DOCTYPE validators PUBLIC "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+    "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+<validators>
+    <field name="username">
+        <field-validator type="required, integer">
+            <message key="Bitte Kundennummer eingeben!"/>
+        </field-validator>
+    </field>
+    <field name="password">
+        <field-validator type="required, string">
+            <message>Bitte Passwort eingeben!</message>
+        </field-validator>
+    </field>
+</validators>

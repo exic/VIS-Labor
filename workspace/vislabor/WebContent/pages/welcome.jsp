@@ -4,7 +4,7 @@
 
 <html >
 	<head>
-		<title ><s:text name="welcome.title"/></title>
+		<title >Willkommen</title>
 	</head>
 	
 	<body bgcolor="white">
@@ -12,15 +12,11 @@
 		<font color="red">
 			<s:actionmessage />
 		</font>
+
+		Sie sind eingeloggt als <s:property value="firstname"/> <s:property value="lastname" />
 		
-		<p><s:text name="welcome.message"/></p>
-		
-		<p><s:text name="welcome.address"/>
-		    <s:property value="firstname"/>
-			<s:property value="lastname" />
-		</p>
-		
-		<p><s:text name="welcome.success"/> </p>
+		<br/>
+		<br/>
 		
 		<font color="red">
 		 	<s:actionerror label="label" />

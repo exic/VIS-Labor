@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="false" />
+    <constant name="struts.custom.i18n.resources" value="ApplicationResources" /> 
+    
+    <package name="vislabExample" extends="struts-default">
+        <action name="forward_to_login">
+        	<result>/pages/login-user.jsp</result>
+        </action>
+        <action name="forward_to_register">
+        	<result>/pages/register-user.jsp</result>
+        </action>
+        <action name="forward_to_admin">
+        	<result>/pages/login-admin.jsp</result>
+        </action>
+        <action name="User_login" class="vislabExample.controller.action.LoginAction">
+            <result name="success">/pages/welcome.jsp</result>
+            <result name="input">/pages/login-user.jsp</result>
+            <result name="register">/pages/register-user.jsp</result>
+        </action>
+    </package>
+</struts>

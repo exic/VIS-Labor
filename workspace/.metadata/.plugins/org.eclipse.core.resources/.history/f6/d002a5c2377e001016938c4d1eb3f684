@@ -1,0 +1,45 @@
+error.user.notrightuser=Dies ist nicht der richtige User!!
+error.user.passwordforgotten=Haben Sie Ihr Passwort vergessen?
+error.username.required=Bitte Benutzernamen eingeben!
+error.username.register=Benutzername ist nicht registriert!
+##
+registration.message=Bitte registrieren Sie sich jetzt!
+##
+prompt.username=Benutzername
+prompt.password=Passwort
+button.submit=senden
+##
+# -- welcome --
+login.welcome.message=Guten Tag, login message!
+login-user.title=Bitte melden Sie sich mit Ihrer Kundennummer und Ihrem Passwort an.
+welcome.heading=Welcome!
+welcome.message=Guten Tag!
+welcome.address=Frau/ Herr
+welcome.success=Sie sind jetzt eingeloggt.
+
+# -- standard errors --
+errors.header=<UL>
+errors.prefix=<LI>
+errors.suffix=</LI>
+errors.footer=</UL>
+# -- validator --
+errors.invalid={0} is invalid.
+errors.maxlength={0} can not be greater than {1} characters.
+errors.minlength={0} can not be less than {1} characters.
+errors.range={0} is not in the range {1} through {2}.
+errors.required=${getText(fieldName)} ist ein Pflichtfeld.
+errors.byte={0} must be an byte.
+errors.date={0} is not a date.
+errors.double={0} must be an double.
+errors.float={0} must be an float.
+errors.integer={0} muss eine Zahl sein.
+errors.long={0} must be an long.
+errors.short={0} must be an short.
+errors.creditcard={0} is not a valid credit card number.
+errors.email={0} is an invalid e-mail address.
+# -- other --
+errors.cancel=Operation cancelled.
+errors.detail={0}
+errors.general=The process did not complete. Details should follow.
+errors.token=Request could not be completed. Operation is not in sequence.
+
