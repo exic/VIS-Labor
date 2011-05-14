@@ -12,7 +12,7 @@ import vislabExample.model.sf.HibernateUtil;
 
 public class CustomerManager {
 
-  public Customer getCustomerByPrimaryKey(String primaryKey) {
+  public Customer getCustomerByPrimaryKey(int primaryKey) {
     /* a Hibernate session */
     Session session = HibernateUtil.getSessionFactory().getCurrentSession();
     

@@ -1,21 +1,33 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
-<!-- Generated 13.03.2008 13:06:34 by Hibernate Tools 3.2.0.CR1 -->
+<!-- Generated 14.05.2011 12:10:28 by Hibernate Tools 3.4.0.CR1 -->
 <hibernate-mapping>
     <class name="vislabExample.model.db.Customer" table="CUSTOMER">
-        <id name="username" type="string">
-            <column name="USERNAME" length="8" />
+        <id name="id" type="long">
+            <column name="ID" />
             <generator class="assigned" />
         </id>
-        <property name="password" type="string">
-            <column name="PASSWORD" length="8" />
+        <property name="password" type="java.lang.String">
+            <column name="PASSWORD" />
         </property>
-        <property name="lastname" type="string">
-            <column name="LASTNAME" length="20" />
+        <property name="lastname" type="java.lang.String">
+            <column name="LASTNAME" />
         </property>
-        <property name="firstname" type="string">
-            <column name="FIRSTNAME" length="20" />
+        <property name="firstname" type="java.lang.String">
+            <column name="FIRSTNAME" />
+        </property>
+        <property name="city" type="java.lang.String">
+            <column name="CITY" />
+        </property>
+        <property name="postcode" type="long">
+            <column name="POSTCODE" />
+        </property>
+        <property name="phone" type="java.lang.String">
+            <column name="PHONE" />
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="EMAIL" />
         </property>
     </class>
 </hibernate-mapping>

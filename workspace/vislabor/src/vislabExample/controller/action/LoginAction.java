@@ -12,7 +12,7 @@ public class LoginAction extends ActionSupport {
 	 */
 	private static final long serialVersionUID = -983183915002226000L;
 
-	private String username = null;
+	private int id = 0;
 	private String password = null;
 	private String firstname = "";
 	private String lastname = "";
@@ -27,13 +27,13 @@ public class LoginAction extends ActionSupport {
 		
 	   	CustomerManager customerManager = new CustomerManager();
 	   	
-		Customer customer = customerManager.getCustomerByPrimaryKey(getUsername());
+		Customer customer = customerManager.getCustomerByPrimaryKey(getId());
 	    
 	   	if (customer == null) {
 			customer = new Customer();
 
 			customer.setPassword(getPassword());
-			customer.setUsername(getUsername());
+			customer.setId(getId());
 			customerManager.saveCustomer(customer) ;
 			
 			addActionError(getText("error.username.register"));
@@ -70,19 +70,19 @@ public class LoginAction extends ActionSupport {
 		this.firstname = firstname;
 	}
 
-    public String getUsername() { return (this.username); }
-    public void setUsername(String username) { this.username = username; }
+    public int getId() { return (this.id); }
+    public void setUsername(int id) { this.id = id; }
 
     public String getPassword() { return (this.password); }
     public void setPassword(String password) { this.password  = password; }
 
     
-    @Override
-    public void validate() {
-    	if (!this.username.startsWith("Us")){
-    		addFieldError("username", "Username muss mit Us beginnen!");
-    	}
-    	super.validate();
-    }
+    //@Override
+    //public void validate() {
+    	//if (!this.username.startsWith("Us")){
+    	//	addFieldError("username", "Username muss mit Us beginnen!");
+    	//}
+    	//super.validate();
+    //}
 
 }

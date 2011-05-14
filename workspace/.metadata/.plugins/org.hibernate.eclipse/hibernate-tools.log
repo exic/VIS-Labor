@@ -4,3 +4,119 @@
 2011-05-05 18:53:20,029 4244   [      Worker-25] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
 2011-05-05 18:53:26,238 10453  [      Worker-18] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
 2011-05-05 18:53:26,238 10453  [      Worker-18] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-12 10:08:41,642 0      [       Worker-8] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-12 10:08:41,689 47     [       Worker-8] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-12 10:08:41,942 300    [       Worker-3] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-12 10:08:41,943 301    [       Worker-3] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-12 10:09:49,315 67673  [       Worker-1] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-12 10:09:49,316 67674  [       Worker-1] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:28:05,486 0      [       Worker-8] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:28:05,532 46     [       Worker-8] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:30:11,705 126219 [       Worker-9] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:30:11,705 126219 [       Worker-9] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:30:16,588 131102 [           main] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:30:16,588 131102 [           main] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:36:59,507 534021 [           main] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:36:59,507 534021 [           main] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:37:02,845 537359 [      Worker-10] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:37:02,845 537359 [      Worker-10] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:40:06,520 721034 [           main] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:40:06,520 721034 [           main] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:40:13,509 728023 [      Worker-13] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:40:13,509 728023 [      Worker-13] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:42:05,361 839875 [           main] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:42:05,361 839875 [           main] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:42:10,322 844836 [      Worker-12] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:42:10,322 844836 [      Worker-12] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:43:17,027 911541 [      Worker-10] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:43:17,027 911541 [      Worker-10] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:43:17,527 912041 [      Worker-12] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:43:17,527 912041 [      Worker-12] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:43:26,481 920995 [           main] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:43:26,481 920995 [           main] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:43:28,384 922898 [      Worker-10] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:43:28,384 922898 [      Worker-10] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:44:13,655 968169 [      Worker-12] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:44:13,655 968169 [      Worker-12] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:44:16,198 970712 [      Worker-13] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:44:16,198 970712 [      Worker-13] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:44:25,933 980447 [      Worker-11] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:44:25,933 980447 [      Worker-11] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:45:44,058 1058572 [      Worker-12] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:45:44,058 1058572 [      Worker-12] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:47:53,944 1188458 [      Worker-10] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:47:53,944 1188458 [      Worker-10] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:48:26,470 1220984 [      Worker-11] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:48:26,470 1220984 [      Worker-11] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:48:31,821 1226335 [       Worker-9] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:48:31,821 1226335 [       Worker-9] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:48:38,186 1232700 [           main] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:48:38,186 1232700 [           main] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:48:39,855 1234369 [      Worker-10] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:48:39,855 1234369 [      Worker-10] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:52:19,660 1454174 [       Worker-9] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:52:19,660 1454174 [       Worker-9] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 11:59:44,825 1899339 [           main] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 11:59:44,825 1899339 [           main] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:00:34,730 1949244 [      Worker-12] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:00:34,730 1949244 [      Worker-12] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:00:35,525 1950039 [      Worker-12] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:00:35,525 1950039 [      Worker-12] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:02:43,289 2077803 [      Worker-12] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:02:43,289 2077803 [      Worker-12] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:02:45,302 2079816 [      Worker-14] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:02:45,302 2079816 [      Worker-14] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:03:10,262 2104776 [           main] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:03:10,262 2104776 [           main] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:03:12,321 2106835 [      Worker-15] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:03:12,321 2106835 [      Worker-15] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:04:50,274 2204788 [      Worker-12] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:04:50,274 2204788 [      Worker-12] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:05:28,790 2243304 [      Worker-12] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:05:28,790 2243304 [      Worker-12] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:06:55,245 2329759 [       Worker-9] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:06:55,245 2329759 [       Worker-9] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:07:01,595 2336109 [      Worker-12] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:07:01,595 2336109 [      Worker-12] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:07:37,319 2371833 [      Worker-14] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:07:37,319 2371833 [      Worker-14] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:07:41,219 2375733 [      Worker-14] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:07:41,219 2375733 [      Worker-14] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:07:44,885 2379399 [           main] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:07:44,885 2379399 [           main] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:07:46,663 2381177 [      Worker-18] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:07:46,663 2381177 [      Worker-18] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:16:57,189 2931703 [      Worker-19] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:16:57,189 2931703 [      Worker-19] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:16:57,782 2932296 [      Worker-14] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:16:57,782 2932296 [      Worker-14] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:17:09,154 2943668 [      Worker-20] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:17:09,154 2943668 [      Worker-20] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:17:09,560 2944074 [      Worker-20] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:17:09,560 2944074 [      Worker-20] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:17:37,858 2972372 [      Worker-21] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:17:37,858 2972372 [      Worker-21] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:17:52,398 2986912 [      Worker-14] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:17:52,398 2986912 [      Worker-14] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:17:57,546 2992060 [       Worker-9] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:17:57,546 2992060 [       Worker-9] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:18:02,319 2996833 [      Worker-19] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:18:02,319 2996833 [      Worker-19] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:18:20,977 3015491 [      Worker-14] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:18:20,977 3015491 [      Worker-14] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:18:46,436 3040950 [       Worker-9] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:18:46,436 3040950 [       Worker-9] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:18:52,099 3046613 [       Worker-9] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:18:52,099 3046613 [       Worker-9] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:18:59,478 3053992 [           main] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:18:59,478 3053992 [           main] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:19:04,017 3058531 [      Worker-12] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:19:04,017 3058531 [      Worker-12] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:27:59,878 3594392 [       Worker-9] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:27:59,878 3594392 [       Worker-9] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:28:32,045 3626559 [      Worker-24] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:28:32,045 3626559 [      Worker-24] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:30:28,375 3742889 [           main] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:30:28,375 3742889 [           main] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2011-05-14 12:30:32,415 3746929 [      Worker-25] WARN  bernate.dialect.Oracle9Dialect  - The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2011-05-14 12:30:32,415 3746929 [      Worker-25] WARN  ibernate.dialect.OracleDialect  - The OracleDialect dialect has been deprecated; use Oracle8iDialect instead

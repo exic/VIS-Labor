@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 14.05.2011 11:52:21 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="vislabExample.model.db.Customer" table="CUSTOMER">
+        <id name="id" type="long">
+            <column name="ID" precision="10" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <property name="password" type="string">
+            <column name="PASSWORD" length="8" />
+        </property>
+        <property name="lastname" type="string">
+            <column name="LASTNAME" length="20" />
+        </property>
+        <property name="firstname" type="string">
+            <column name="FIRSTNAME" length="20" />
+        </property>
+        <property name="city" type="string">
+            <column name="city" length="20" />
+        </property>
+    </class>
+</hibernate-mapping>

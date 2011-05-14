@@ -13,7 +13,11 @@
         <property name="hibernate.default_schema">VISLAB22</property>
         <property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property>
         <property name="hibernate.format_sql">true</property>
+        <property name="hibernate.search.autoregister_listeners">false</property>
         <property name="hibernate.show_sql">true</property>
         <mapping resource="vislabExample/model/db/Customer.hbm.xml" />
+        <mapping resource="vislabExample/model/db/Product.hbm.xml" />
+        <mapping resource="vislabExample/model/db/Category.hbm.xml" />
+        <mapping resource="vislabExample/model/db/Admin.hbm.xml" />
     </session-factory>
 </hibernate-configuration>
