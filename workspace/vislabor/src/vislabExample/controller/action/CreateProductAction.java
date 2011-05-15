@@ -1,0 +1,86 @@
+package vislabExample.controller.action;
+
+import com.opensymphony.xwork2.ActionSupport;
+import vislabExample.model.bl.CategoryManager;
+import vislabExample.model.bl.ProductManager;
+import vislabExample.model.db.Category;
+import vislabExample.model.db.Product;
+
+public class CreateProductAction extends ActionSupport {
+
+	private static final long serialVersionUID = 1034651710103526391L;
+	
+	private long id = 0;
+	private String label = "";
+	private String description = "";
+	private double price = 0.0;
+	private String category = "";
+
+	public String execute() throws Exception {
+
+		ProductManager productManager = new ProductManager();
+		Product product = productManager.getProductByPrimaryKey(getId());
+	    
+	   	if (product != null) {
+			addActionError(getText("Produkt existiert schon."));
+			return INPUT;
+	   	}
+	   	else {
+	   		product = new Product(getId(), getLabel(), getDescription(), getPrice(), new Category(getCategory()));
+	   		productManager.saveProduct(product);	
+			return SUCCESS;
+	   	}
+	}
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public String getLabel() {
+		return label;
+	}
+
+	public void setLabel(String label) {
+		this.label = label;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	public String getCategory() {
+		return category;
+	}
+
+	public void setCategory(String category) {
+		this.category = category;
+	}
+	
+    
+    @Override
+    public void validate() {
+    	CategoryManager categoryManager = new CategoryManager();
+    	Category category = categoryManager.getCategoryByPrimaryKey(getCategory());
+    	
+    	if (category == null){
+    		addFieldError("category", "Kategorie existiert nicht!");
+    	}
+    	super.validate();
+    }
+}

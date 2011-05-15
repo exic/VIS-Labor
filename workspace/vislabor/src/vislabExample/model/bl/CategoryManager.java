@@ -20,5 +20,12 @@ public class CategoryManager {
 		session.save(category);
         session.getTransaction().commit();
     }
+	
+	public void deleteCategory(Category category) {
+        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+  	    session.beginTransaction();
+		session.delete(category);
+        session.getTransaction().commit();
+    }
 
 }

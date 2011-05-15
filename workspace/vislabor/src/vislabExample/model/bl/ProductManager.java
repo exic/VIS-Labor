@@ -1,5 +1,7 @@
 package vislabExample.model.bl;
 
+import java.util.List;
+
 import org.hibernate.Session;
 import vislabExample.model.db.Product;
 import vislabExample.model.sf.HibernateUtil;
@@ -19,6 +21,52 @@ public class ProductManager {
   	    session.beginTransaction();
 		session.save(product);
         session.getTransaction().commit();
+    }
+	
+	public void deleteProduct(Product product) {
+        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+  	    session.beginTransaction();
+		session.delete(product);
+        session.getTransaction().commit();
+    }
+	
+    @SuppressWarnings("unchecked")
+	public List<Product> search(String searchstring, int arg) {
+    	 
+        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+        session.beginTransaction();
+        List<Product> products = null;
+
+        if(arg == 0)
+        	products = (List<Product>)session.createQuery("from Product as p where p.category.label like '" + searchstring + "'").list();
+        else if(arg == 1)
+        	products = (List<Product>)session.createQuery("from Product as p where p.label like '%" + searchstring + "%'").list();
+        else if(arg == 2)
+        	products = (List<Product>)session.createQuery("from Product as p where p.description like '%" + searchstring + "%'").list();
+        else if(arg == 3)
+        {
+        	if(searchstring.contains("unter"))
+        	{
+        		String value = searchstring.substring(6);
+        		products = (List<Product>)session.createQuery("from Product as p where p.price < " + value).list();
+        	}
+        	else if(searchstring.contains("ueber"))
+        	{
+        		String value = searchstring.substring(6);
+        		products = (List<Product>)session.createQuery("from Product as p where p.price > " + value).list();
+        	}
+        	else if(searchstring.contains("zwischen"))
+        	{
+        	    searchstring = searchstring.substring(9);
+        		String value1 = searchstring.substring(0, searchstring.indexOf(" "));
+        		String value2 = searchstring.substring(value1.length() + 5);
+        		
+        		products = (List<Product>)session.createQuery("from Product as p where p.price > " + value1 + " and p.price < " + value2).list();
+        	}
+          }
+ 
+        session.getTransaction().commit();
+        return products;
     }
 
 }

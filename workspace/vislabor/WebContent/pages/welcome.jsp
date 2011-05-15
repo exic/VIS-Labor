@@ -8,20 +8,8 @@
 	</head>
 	
 	<body bgcolor="white">
-	
-		<font color="red">
-			<s:actionmessage />
-		</font>
-
-		Sie sind eingeloggt als <s:property value="firstname"/> <s:property value="lastname" />
-		
-		<br/>
-		<br/>
-		
-		<font color="red">
-		 	<s:actionerror label="label" />
-		 </font>
-		 
+		Willkommen <br /><br />
+		<a href="<s:url action="forward_to_product_search"/>">Produkt suchen</a><br/>
 		
 	</body>
 </html>

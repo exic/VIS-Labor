@@ -1,0 +1,90 @@
+package vislabExample.controller.action;
+
+import java.util.List;
+
+import com.opensymphony.xwork2.ActionSupport;
+import vislabExample.model.bl.ProductManager;
+import vislabExample.model.db.Product;
+
+public class SearchProductAction extends ActionSupport {
+
+	private static final long serialVersionUID = -2288153561304263539L;
+
+	private Product product;
+	private List<Product> productList;
+
+	private String category = "";
+	private String label = "";
+	private String description = "";
+	private String price = "";
+
+	public String execute() throws Exception {
+		ProductManager productManager = new ProductManager();
+		this.productList = productManager.search();
+		return SUCCESS;
+	}
+
+	public Product getProduct() {
+		return product;
+	}
+
+	public void setProduct(Product product) {
+		this.product = product;
+	}
+
+	public List<Product> getProductList() {
+		return productList;
+	}
+
+	public void setProductList(List<Product> productList) {
+		this.productList = productList;
+	}
+
+	public String getCategory() {
+		return category;
+	}
+
+	public void setCategory(String category) {
+		this.category = category;
+	}
+
+	public String getLabel() {
+		return label;
+	}
+
+	public void setLabel(String label) {
+		this.label = label;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public String getPrice() {
+		return price;
+	}
+
+	public void setPrice(String price) {
+		this.price = price;
+	}
+	
+    @Override
+    public void validate() {
+    	int counter = 0;
+    	if(!getLabel().equals(""))
+    		counter++;
+    	if(!getDescription().equals(""))
+    		counter++;
+    	if(!getCategory().equals(""))
+    		counter++;
+    	if(!getPrice().equals(""))
+    		counter++;
+    	if(counter > 1)
+    		addActionError("Bitte nur ein Suchargument angeben!");
+    	super.validate();
+    }
+}

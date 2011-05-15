@@ -17,5 +17,6 @@
         <property name="price" type="double">
             <column name="PRICE" />
         </property>
+		<many-to-one name="category" column="CATEGORY" class="vislabExample.model.db.Category"/>
     </class>
 </hibernate-mapping>

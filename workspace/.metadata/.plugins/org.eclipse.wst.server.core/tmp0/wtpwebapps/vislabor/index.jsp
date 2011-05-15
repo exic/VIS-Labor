@@ -4,7 +4,7 @@
 
 <html>
 	<head>
-	    
+	    <title >Shop der Gruppe 22</title>
 	</head>
 	<body>
 		<a href="<s:url action="forward_to_login"/>">Login</a> -

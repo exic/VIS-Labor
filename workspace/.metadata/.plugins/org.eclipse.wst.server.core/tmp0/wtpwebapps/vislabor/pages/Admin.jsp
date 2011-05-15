@@ -8,20 +8,11 @@
 	</head>
 	
 	<body bgcolor="white">
-	
-		<font color="red">
-			<s:actionmessage />
-		</font>
-
-		Sie sind eingeloggt als <s:property value="username"/>
-		
 		<br/>
-		<br/>
-		
-		<font color="red">
-		 	<s:actionerror label="label" />
-		 </font>
-		 
+		<a href="<s:url action="forward_to_product_create"/>">Produkt erstellen</a><br/>
+		<a href="<s:url action="forward_to_product_delete"/>">Produkt löschen</a><br/>
+		<a href="<s:url action="forward_to_category_create"/>">Kategorie erstellen</a><br/>
+		<a href="<s:url action="forward_to_category_delete"/>">Kategorie löschen</a>
 		
 	</body>
 </html>

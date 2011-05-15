@@ -1,0 +1,42 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ taglib prefix="s" uri="/struts-tags"  %>
+
+<html >
+	<head>
+		<title >Product suchen</title>
+	</head>
+	
+	<body bgcolor="white">
+	
+		<a href="<s:url action="forward_to_user_start"/>">User Startseite</a>	
+		<br /><br />
+	
+		<s:text name="Bitte melden Sie sich mit Ihrer Kundennummer und Ihrem Passwort an:" />
+	 
+		<s:form action="search_product">
+			
+			<s:submit value="Show"/>
+		</s:form>
+		
+		<h2>Produkte</h2>
+		<table>
+		<tr>
+		    <th>Produktnummer</th>
+		    <th>Bezeichnung</th>
+		    <th></th>
+		</tr>
+		<s:iterator value="productList" var="product">
+		    <tr>
+		        <td><s:property value="id"/></td>
+		        <td><s:property value="label"/></td>
+		        <td><a href="view?id=<s:property value="id"/>">Detailansicht</a></td>
+		    </tr>
+		</s:iterator>
+		</table>
+	 
+		 <font color="red">
+		 	<s:actionerror label="label" />
+		 </font>
+	</body>
+</html>

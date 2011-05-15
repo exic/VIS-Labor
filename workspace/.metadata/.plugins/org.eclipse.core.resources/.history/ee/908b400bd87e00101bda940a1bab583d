@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="false" />
+    <constant name="struts.custom.i18n.resources" value="ApplicationResources" /> 
+    
+    <package name="vislabExample" extends="struts-default">
+        <action name="forward_to_login">
+        	<result>/pages/LoginUser.jsp</result>
+        </action>
+        <action name="forward_to_register">
+        	<result>/pages/RegisterUser.jsp</result>
+        </action>
+        <action name="forward_to_admin">
+        	<result>/pages/LoginAdmin.jsp</result>
+        </action>
+        <action name="forward_to_admin_start">
+        	<result>/pages/Admin.jsp</result>
+        </action>
+        <action name="forward_to_home">
+        	<result>/index.jsp</result>
+        </action>
+        <action name="forward_to_product_create">
+        	<result>/pages/CreateProduct.jsp</result>
+        </action>
+        <action name="forward_to_product_delete">
+        	<result>/pages/DeleteProduct.jsp</result>
+        </action>
+        <action name="forward_to_category_create">
+        	<result>/pages/CreateCategory.jsp</result>
+        </action>
+        <action name="forward_to_category_delete">
+        	<result>/pages/DeleteCategory.jsp</result>
+        </action>        
+        <action name="admin_login" class="vislabExample.controller.action.LoginAdminAction">
+            <result name="success">/pages/Admin.jsp</result>
+            <result name="input">/pages/LoginAdmin.jsp</result>
+        </action>
+        <action name="user_login" class="vislabExample.controller.action.LoginUserAction">
+            <result name="success">/pages/Welcome.jsp</result>
+            <result name="input">/pages/LoginUser.jsp</result>
+        </action>
+        <action name="user_register" class="vislabExample.controller.action.RegisterUserAction">
+            <result name="success">/pages/Welcome.jsp</result>
+            <result name="input">/pages/RegisterUser.jsp</result>
+        </action>
+        <action name="create_category" class="vislabExample.controller.action.CreateCategoryAction">
+            <result name="success">/pages/Admin.jsp</result>
+            <result name="input">/pages/CreateCategory.jsp</result>
+        </action>
+        <action name="delete_category" class="vislabExample.controller.action.DeleteCategoryAction">
+            <result name="success">/pages/Admin.jsp</result>
+            <result name="input">/pages/DeleteCategory.jsp</result>
+        </action>
+        <action name="create_product" class="vislabExample.controller.action.CreateProductAction">
+            <result name="success">/pages/Admin.jsp</result>
+            <result name="input">/pages/CreatProduct.jsp</result>
+        </action>
+    </package>
+</struts>

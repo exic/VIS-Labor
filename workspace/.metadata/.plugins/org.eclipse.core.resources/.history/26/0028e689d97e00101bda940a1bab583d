@@ -1,0 +1,5 @@
+package vislabExample.controller.action;
+
+public class DeleteProductAction {
+
+}

@@ -8,5 +8,9 @@
             <column name="LABEL" />
             <generator class="assigned" />
         </id>
+        <set name="products" cascade="all" lazy="true">
+        	<key column="CATEGORY"/>
+        	<one-to-many class="vislabExample.model.db.Product"/>
+    	</set>
     </class>
 </hibernate-mapping>

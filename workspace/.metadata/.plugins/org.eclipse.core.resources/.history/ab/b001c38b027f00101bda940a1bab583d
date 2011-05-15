@@ -1,0 +1,80 @@
+package vislabExample.controller.action;
+
+import java.util.List;
+
+import com.opensymphony.xwork2.ActionSupport;
+import vislabExample.model.bl.ProductManager;
+import vislabExample.model.db.Product;
+
+public class SearchProductAction extends ActionSupport {
+
+	private static final long serialVersionUID = -2288153561304263539L;
+
+	private Product product;
+	private List<Product> productList;
+
+	private String category = "";
+	private String laben = "";
+	private String description = "";
+	private String price = "";
+
+	public String execute() throws Exception {
+		ProductManager productManager = new ProductManager();
+		this.productList = productManager.list();
+		return SUCCESS;
+	}
+
+	public Product getProduct() {
+		return product;
+	}
+
+	public void setProduct(Product product) {
+		this.product = product;
+	}
+
+	public List<Product> getProductList() {
+		return productList;
+	}
+
+	public void setProductList(List<Product> productList) {
+		this.productList = productList;
+	}
+
+	public String getCategory() {
+		return category;
+	}
+
+	public void setCategory(String category) {
+		this.category = category;
+	}
+
+	public String getLaben() {
+		return laben;
+	}
+
+	public void setLaben(String laben) {
+		this.laben = laben;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	
+    @Override
+    public void validate() {
+
+    	super.validate();
+    }
+}

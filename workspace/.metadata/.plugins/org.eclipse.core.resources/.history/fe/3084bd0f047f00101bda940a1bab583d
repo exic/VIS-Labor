@@ -1,0 +1,46 @@
+package vislabExample.model.bl;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import vislabExample.model.db.Product;
+import vislabExample.model.sf.HibernateUtil;
+
+public class ProductManager {
+	
+	public Product getProductByPrimaryKey(long primaryKey) {
+	    Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	    session.beginTransaction();
+	    Product product = (Product) session.get(Product.class, primaryKey);
+	    session.getTransaction().commit();
+	    return product;
+	}
+
+	public void saveProduct(Product product) {
+        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+  	    session.beginTransaction();
+		session.save(product);
+        session.getTransaction().commit();
+    }
+	
+	public void deleteProduct(Product product) {
+        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+  	    session.beginTransaction();
+		session.delete(product);
+        session.getTransaction().commit();
+    }
+	
+    @SuppressWarnings("unchecked")
+	public List<Product> search() {
+    	 
+        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+        session.beginTransaction();
+        List<Product> products = null;
+
+        products = (List<Product>)session.createQuery("from Product").list();
+
+        session.getTransaction().commit();
+        return products;
+    }
+
+}
